@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Login test is Executing <br>]]>
+    </line>
+    <line>
+      <![CDATA[Login test is Executing <br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46854" started-at="2019-05-27T02:13:46Z" finished-at="2019-05-27T02:14:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46854" started-at="2019-05-27T02:13:46Z" finished-at="2019-05-27T02:14:33Z">
+      <class name="com.qsp.OrangeHRMtest.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@1fa1d9b]" name="setup" is-config="true" duration-ms="17713" started-at="2019-05-27T07:43:46Z" finished-at="2019-05-27T07:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createPageObj()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@1fa1d9b]" name="createPageObj" is-config="true" duration-ms="38" started-at="2019-05-27T07:44:04Z" finished-at="2019-05-27T07:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPageObj -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@1fa1d9b]" name="launchApp" is-config="true" duration-ms="17644" started-at="2019-05-27T07:44:04Z" finished-at="2019-05-27T07:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="loginWithValidUserTest()[pri:1, instance:com.qsp.OrangeHRMtest.LoginTest@1fa1d9b]" name="loginWithValidUserTest" duration-ms="8797" started-at="2019-05-27T07:44:21Z" finished-at="2019-05-27T07:44:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login test is Executing <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUserTest -->
+        <test-method status="PASS" signature="checkExecutionstatus(org.testng.ITestResult)[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@1fa1d9b]" name="checkExecutionstatus" is-config="true" duration-ms="0" started-at="2019-05-27T07:44:30Z" finished-at="2019-05-27T07:44:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidUserTest status=SUCCESS method=LoginTest.loginWithValidUserTest()[pri:1, instance:com.qsp.OrangeHRMtest.LoginTest@1fa1d9b] output=Login test is Executing <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExecutionstatus -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@1fa1d9b]" name="launchApp" is-config="true" duration-ms="894" started-at="2019-05-27T07:44:30Z" finished-at="2019-05-27T07:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="loginWithInValidUserTest()[pri:2, instance:com.qsp.OrangeHRMtest.LoginTest@1fa1d9b]" name="loginWithInValidUserTest" duration-ms="1219" started-at="2019-05-27T07:44:31Z" finished-at="2019-05-27T07:44:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login test is Executing <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidUserTest -->
+        <test-method status="PASS" signature="checkExecutionstatus(org.testng.ITestResult)[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@1fa1d9b]" name="checkExecutionstatus" is-config="true" duration-ms="1" started-at="2019-05-27T07:44:32Z" finished-at="2019-05-27T07:44:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithInValidUserTest status=SUCCESS method=LoginTest.loginWithInValidUserTest()[pri:2, instance:com.qsp.OrangeHRMtest.LoginTest@1fa1d9b] output=Login test is Executing <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExecutionstatus -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@1fa1d9b]" name="tearDown" is-config="true" duration-ms="507" started-at="2019-05-27T07:44:32Z" finished-at="2019-05-27T07:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="clearPageObj()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@1fa1d9b]" name="clearPageObj" is-config="true" duration-ms="0" started-at="2019-05-27T07:44:32Z" finished-at="2019-05-27T07:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPageObj -->
+      </class> <!-- com.qsp.OrangeHRMtest.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

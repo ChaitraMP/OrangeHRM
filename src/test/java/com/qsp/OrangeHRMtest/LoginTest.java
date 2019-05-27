@@ -83,8 +83,6 @@ public class LoginTest {
 				e.printStackTrace();
 			}
 		}
-		
-		
 	}
 	@AfterClass
 	public void clearPageObj()

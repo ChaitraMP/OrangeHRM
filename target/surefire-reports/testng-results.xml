@@ -8,31 +8,31 @@
       <![CDATA[Login test is Executing <br>]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="71034" started-at="2019-05-26T12:11:11Z" finished-at="2019-05-26T12:12:22Z">
+  <suite name="Suite" duration-ms="27170" started-at="2019-05-27T09:13:18Z" finished-at="2019-05-27T09:13:45Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="71034" started-at="2019-05-26T12:11:11Z" finished-at="2019-05-26T12:12:22Z">
+    <test name="Test" duration-ms="27170" started-at="2019-05-27T09:13:18Z" finished-at="2019-05-27T09:13:45Z">
       <class name="com.qsp.OrangeHRMtest.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="setup" is-config="true" duration-ms="4606" started-at="2019-05-26T12:11:11Z" finished-at="2019-05-26T12:11:16Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="setup" is-config="true" duration-ms="6785" started-at="2019-05-27T09:13:18Z" finished-at="2019-05-27T09:13:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="createPageObj()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="createPageObj" is-config="true" duration-ms="51" started-at="2019-05-26T12:11:16Z" finished-at="2019-05-26T12:11:16Z">
+        <test-method status="PASS" signature="createPageObj()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="createPageObj" is-config="true" duration-ms="363" started-at="2019-05-27T09:13:25Z" finished-at="2019-05-27T09:13:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPageObj -->
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="launchApp" is-config="true" duration-ms="31071" started-at="2019-05-26T12:11:16Z" finished-at="2019-05-26T12:11:47Z">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="launchApp" is-config="true" duration-ms="9732" started-at="2019-05-27T09:13:25Z" finished-at="2019-05-27T09:13:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="loginWithValidUserTest()[pri:1, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="loginWithValidUserTest" duration-ms="29006" started-at="2019-05-26T12:11:47Z" finished-at="2019-05-26T12:12:16Z">
+        <test-method status="PASS" signature="loginWithValidUserTest()[pri:1, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="loginWithValidUserTest" duration-ms="8040" started-at="2019-05-27T09:13:35Z" finished-at="2019-05-27T09:13:43Z">
           <reporter-output>
             <line>
               <![CDATA[Login test is Executing <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginWithValidUserTest -->
-        <test-method status="PASS" signature="checkExecutionstatus(org.testng.ITestResult)[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="checkExecutionstatus" is-config="true" duration-ms="4" started-at="2019-05-26T12:12:16Z" finished-at="2019-05-26T12:12:16Z">
+        <test-method status="PASS" signature="checkExecutionstatus(org.testng.ITestResult)[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="checkExecutionstatus" is-config="true" duration-ms="20" started-at="2019-05-27T09:13:43Z" finished-at="2019-05-27T09:13:43Z">
           <params>
             <param index="0">
               <value>
@@ -43,18 +43,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkExecutionstatus -->
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="launchApp" is-config="true" duration-ms="2291" started-at="2019-05-26T12:12:16Z" finished-at="2019-05-26T12:12:18Z">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="launchApp" is-config="true" duration-ms="890" started-at="2019-05-27T09:13:43Z" finished-at="2019-05-27T09:13:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="loginWithInValidUserTest()[pri:2, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="loginWithInValidUserTest" duration-ms="1925" started-at="2019-05-26T12:12:18Z" finished-at="2019-05-26T12:12:20Z">
+        <test-method status="PASS" signature="loginWithInValidUserTest()[pri:2, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="loginWithInValidUserTest" duration-ms="961" started-at="2019-05-27T09:13:44Z" finished-at="2019-05-27T09:13:45Z">
           <reporter-output>
             <line>
               <![CDATA[Login test is Executing <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginWithInValidUserTest -->
-        <test-method status="PASS" signature="checkExecutionstatus(org.testng.ITestResult)[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="checkExecutionstatus" is-config="true" duration-ms="1" started-at="2019-05-26T12:12:20Z" finished-at="2019-05-26T12:12:20Z">
+        <test-method status="PASS" signature="clearPageObj()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="clearPageObj" is-config="true" duration-ms="1" started-at="2019-05-27T09:13:45Z" finished-at="2019-05-27T09:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPageObj -->
+        <test-method status="PASS" signature="checkExecutionstatus(org.testng.ITestResult)[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="checkExecutionstatus" is-config="true" duration-ms="0" started-at="2019-05-27T09:13:45Z" finished-at="2019-05-27T09:13:45Z">
           <params>
             <param index="0">
               <value>
@@ -65,11 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkExecutionstatus -->
-        <test-method status="PASS" signature="clearPageObj()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="clearPageObj" is-config="true" duration-ms="0" started-at="2019-05-26T12:12:20Z" finished-at="2019-05-26T12:12:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearPageObj -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="tearDown" is-config="true" duration-ms="2052" started-at="2019-05-26T12:12:20Z" finished-at="2019-05-26T12:12:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qsp.OrangeHRMtest.LoginTest@10f6bfd]" name="tearDown" is-config="true" duration-ms="349" started-at="2019-05-27T09:13:45Z" finished-at="2019-05-27T09:13:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
